@@ -22,7 +22,7 @@ def dashboard():
 
 
 @app.route("/support")
-def about():
+def support():
     return render_template("support.html")
 
 
