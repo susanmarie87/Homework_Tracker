@@ -49,6 +49,19 @@
 - The website must be efficient and easily update information.
 
 ### User Stories ###
+
+* As a user, I to be able to easily understand how to operate the website.
+* As a user, I to be able to creat a profile for my child and myself.
+* As a user, I want to be able to create a calendar that will provide visualization of goals.
+* As a user, I want my child to easily be able to uplaod their assignment to their profile.
+* As a user, I want to be able to add as many assignments as I want.
+* As a user, I want to be able to easily see the homework that has been uploaded to my child's account.
+* As a user, I want the option to add in incentives for my child if they are completing their assignments.
+* As a user, I want to be able to track the overall progress of completed assignments
+* As a user, I want to be able to contact the App managers in the event of unexpected errors.
+* As a user, I want to be able to edit profiles and assignments.
+* As a user, I want the option to delete profiles.
+* As a user, I want the ability to delete assignments. 
 ### Design Choices ###
 
 ### Site Owner Goals ###
