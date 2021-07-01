@@ -11,11 +11,11 @@
 <body>
     <nav>
         <ul>
-            <li><a href=""></a>Home</li>
-            <li><a href=""></a>About</li>
-            <li><a href=""></a>Register</li>
-            <li><a href=""></a>My Dashboard</li>
-            <li><a href=""></a>Support</li>
+            <li><a href="{{ url_for('index') }}"></a>Home</li>
+            <li><a href="{{ url_for('about') }}"></a>About</li>
+            <li><a href="{{ url_for('register') }}"></a>Register</li>
+            <li><a href="{{ url_for('dashboard') }}"></a>Dashboard</li>
+            <li><a href="{{ url_for('support') }}"></a>Support</li>
         </ul>
     </nav>
 </body>
