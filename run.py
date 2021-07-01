@@ -15,6 +15,11 @@ def about():
     return render_template("about.html")
 
 
+@app.route("/register")
+def register():
+    return render_template("register.html")
+
+
 @app.route("/dashboard")
 def dashboard():
     return render_template("dashboard.html")
