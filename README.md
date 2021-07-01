@@ -1,59 +1,384 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome USER_NAME,
+# Homework TrackApp #
+## Contents ##
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
-
-## Gitpod Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidently make it public then you can create a new one with _Regenerate API Key_.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+- [UX (User Experience)](#ux-user-experience)
+  - [Project Goals](#project-goals)
+  - [User Goals](#user-goals)
+  - [User Stories](#user-stories)
+  - [Site Owner Goals](#site-owner-goals)
+  - [User Requirements and Expectations](#user-requirements-and-expectations)
+  - [Design Choices](#design-choices)
+    - [Fonts](#fonts)
+    - [Colours](#colours)
+    - [Wireframes](#wireframes)
+- [Technologies](#technologies)
+  - [Languages](#languages)
+  - [Libraries](#libraries)
+  - [Tools](#tools)
+- [Features](#features)
+  - [Features Implemented](#features-implemented)
+  - [Future Features](#future-features)
+  - [Considered Features](#considered-features)
+- [Testing](#testing)
+- [Deployment](#deployment)
+  - [Running Money Pot Locally](#running-money-pot-locally)
+- [Credits](#credits)
+  - [Audio](#audio)
+  - [Images](#images)
+  - [Colour](#colour)
+  - [Image editing](#image-editing)
+  - [Code Ideas](#code-ideas)
+- [Acknowledgements](#acknowledgements)
 
 ---
 
-Happy coding!
+<a name="ux"></a>
+## **UX**
+
+## UX (User Experience) ##
+
+
+### User Goals ###
+
+- The site should be easy to understand.
+- The site must work on all different screen sizes.
+- The most recent assignemtns should be displayed right at the top.
+- There should be a profile for each student with the ability to add basic information.
+- There has to be an option to add multile assignments per day.
+- The website must be efficient and easily update information.
+
+### User Stories ###
+### Design Choices ###
+
+### Site Owner Goals ###
+
+### User Requirements and Expectations ###
+<a></a>
+
+
+<a></a>
+
+#### Fonts
+
+<a></a>
+
+#### Structure
+
+
+[Back to Top](#table-of-contents)
+
+--- 
+<a></a>
+
+## **Wireframes and Flowcharts**
+
+### **Wireframes**
+I used [Balsamic](https://balsamiq.com/wireframes/) to create wireframes for my website. 
+
+You can find my wireframes below:
+
+For the homepage I have only created 1 wireframe as the design is quite basic and looks identical on all screen sizes.
+* [Home](wireframes/desktop-home.png)
+
+#### Desktop Wireframes
+* [Dashboard](wireframes/desktop-dashboard.png)
+* [](wireframes/desktop-.png)
+* [](wireframes/desktop-.png)
+
+#### Tablet Wireframes
+* [Dashboard](wireframes/.png)
+* [](wireframes/tablet-.png)
+* [](wireframes/tablet-.png)
+
+#### Mobile Wireframes
+* [](wireframes/mobile-.png)
+* [](wireframes/mobile-.png)
+* [](wireframes/mobile-.png)
+
+### **Flowcharts**
+
+I have decided to make a flowchart for the sign-in / register proccess to completely understand each step of the process.  
+I have used [Draw.io](https://draw.io/) to make this flowchart which you can view below: 
+
+[Flowchart](wireframes/flowchart.png)
+
+### **Database Structure**
+
+I have used MongoDB to set up the database for this project with the following collections: 
+
+
+[Back to Top](#table-of-contents)
+
+---
+
+<a></a>
+
+## **Features**
+
+<a></a>
+
+### **Existing Features**
+
+<a></a>
+
+### **Features to be implemented**
+
+[Back to Top](#table-of-contents)
+
+<a></a>
+
+## **Technologies used**
+
+<a></a>
+
+### **Languages**
+
+* [HTML](https://en.wikipedia.org/wiki/HTML)
+* [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+* [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+* [Python](https://www.python.org/)
+
+<a></a>
+
+### **Libraries and Frameworks**
+
+* [Font Awesome](https://fontawesome.com/)
+* [Materialize](https://materializecss.com/)
+* [Google Fonts](https://fonts.google.com/)
+* [jQuery](https://jquery.com/)
+
+### **Tools**
+* [Git](https://git-scm.com/)
+* [GitPod](https://www.gitpod.io/)
+* [Heroku](https://www.heroku.com/)
+* [Balsamic](https://balsamiq.com/wireframes/)
+* [W3C HTML Validation Service](https://validator.w3.org/)
+* [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+* [techsini](http://techsini.com/)
+* [MongoDB Atlas](https://www.mongodb.com/)
+* [Flask](https://flask.palletsprojects.com/en/1.1.x/)
+* [PyMongo](https://api.mongodb.com/python/current/tutorial.html)
+* [Jinja](https://jinja.palletsprojects.com/en/2.11.x/)
+
+[Back to Top](#table-of-contents)
+
+<a></a>
+
+## **Testing**
+
+### **Registration**
+
+#### User story: As a user, I would like to be able to register for the website so I can have my personal environment
+
+* **Plan**  
+
+* **Implementation**  
+
+* **Test**  
+
+* **Result**  
+
+* **Verdict**
+
+### **Sign In**
+
+#### User story: As a user, I want to login after I created an account and see my previous inserted information.
+
+* **Plan**  
+
+* **Implementation**  
+
+* **Test**  
+
+* **Result**  
+
+* **Verdict**    
+
+### **Profile Dog**
+
+#### User story: As a user, I would like to have a personal profile for my dog. 
+
+* **Plan**  
+
+* **Implementation**  
+
+* **Test**  
+
+* **Result**  
+
+
+[Back to Top](#table-of-contents)
+
+## **Bugs**
+
+### ****
+
+* **Bug**  
+
+* **Fix**       
+
+* **Verdict**   
+
+### ****
+
+* **Bug**  
+
+* **Fix**       
+
+* **Verdict**   
+### ****
+
+* **Bug**  
+
+* **Fix**       
+
+* **Verdict**   
+### ****
+
+* **Bug**  
+
+* **Fix**       
+
+* **Verdict**   
+### ****
+
+* **Bug**  
+
+* **Fix**       
+
+* **Verdict**   
+### ****
+
+* **Bug**  
+
+* **Fix**       
+
+* **Verdict**   
+
+
+[Back to Top](#table-of-contents)
+
+<a></a>
+
+## **Deployment**
+
+### Local Deployment
+
+I have created the Homework Tracker project using Github, from there I used [Gitpod](https://gitpod.io/) to write my code. 
+Then I used commits to git followed by "git push" to my GitHub repository. 
+I've deployed this project to Heroku and used "git push heroku master" to make sure my pushes to GitHub were also made to Heroku. 
+
+This project can be ran locally by following the following steps: (
+I used Gitpod for development, so the following steps will be specific to Gitpod. 
+You will need to adjust them depending on your IDE. You can find more information about installing packages using pip and virtual environments [here](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/)
+
+To clone the project: 
+
+1. From the application's repository, click the "code" button and download the zip of the repository.
+    Alternatively, you can clone the repository using the following line in your terminal:
+
+    ``` 
+    git clone 
+    ``` 
+
+1. Access the folder in your terminal window and install the application's [required modules]() using the following command:
+
+    ```
+    pip3 install -r requirements.txt
+    ```
+
+1. Sign-in or sign-up to [MongoDB](https://www.mongodb.com/) and create a new cluster
+    * Within the Sandbox, click the collections button and after click Create Database (Add My Own Data) called dog_health_tracker
+    * Set up the following collections: users, dogs, logs, food_metrics and weight [Click here to see the exact Database Structure](#database-structure)
+    * Under *** *** and *** ***, add your preferred  in the collection with the following structure: 
+        ```
+        Key             | Value
+        ----------------|-----------
+        _id             | ObjectId          This will be automatically generated by MongoDB
+        metric_name     | String            Replace string by kg, pounds, grams, ounces etc.
+        ```
+
+    * Under the Security Menu on the left, select Database Access.
+    * Add a new database user, and keep the credentials secure
+    * Within the Network Access option, add IP Address 0.0.0.0
+
+1. In your IDE, create a file containing your environmental variables called env.py at the root level of the application. 
+    It will need to contain the following lines and variables:
+    ```
+    import os
+
+    os.environ["IP"] = "0.0.0.0"
+    os.environ["PORT"] = "5000"
+    os.environ["SECRET_KEY"] = "YOUR_SECRET_KEY"
+    os.environ["DEBUG"] = "True"
+    os.environ["MONGO_URI"] = "YOUR_MONGODB_URI"
+    os.environ["MONGO_DBNAME"]= "DATABASE_NAME" 
+    ```
+
+    Please note that you will need to update the **SECRET_KEY** with your own secret key, as well as the **MONGO_URI** and **MONGO_DBNAME** variables with those provided by MongoDB.
+    Tip for your SECRET_KEY, you can use a [Password Generator](https://passwordsgenerator.net/) in order to have a secure secret key. 
+    I personlly recommend a length of 24 characters and exclude Symbols.
+    To find your MONGO_URI, go to your clusters and click on connect. Choose connect your application and copy the link provided. 
+    Don't forget to update the necessary fields like password and database name. 
+
+    If you plan on pushing this application to a public repository, ensure that env.py is added to your .gitignore file.
+
+1. The application can now be run locally. In your terminal, type the following command 
+    ```
+    python3 app.py. 
+    ```
+    
+### To deploy your project on Heroku, use the following steps: 
+
+1. Login to your Heroku account and create a new app. Choose your region. 
+1. Ensure the Procfile and requirements.txt files exist are present and up-to-date in your local repository.  
+    Requirements:
+    ```
+    pip3 freeze --local > requirements.txt
+    ```
+    Procfile:
+    ```
+    echo web: python app.py > Procfile
+    ```
+1. The Procfile should contain the following line:
+    ```
+    web: python app.py
+    ```
+
+1. Scroll down to "deployment method"-section. Choose "Github" for automatic deployment.
+1. From the inputs below, make sure your github user is selected, and then enter the name for your repo. Click "search". When it finds the repo, click the "connect" button.
+1. Scroll back up and click "settings". Scroll down and click "Reveal config vars". Set up the same variables as in your env.py (IP, PORT, SECRET_KEY, MONGO_URI and MONGODB_NAME):
+    !You shouldn't set the DEBUG variable in under config vars, only in your env.py to prevent DEBUG being active on live website. 
+
+    ```
+    IP = 0.0.0.0
+    PORT = 5000
+    SECRET_KEY = YOUR_SECRET_KEY
+    MONGO_URI = YOUR_MONGODB_URI
+    MONGO_DBNAME = DATABASE_NAME
+    ```
+
+1. Scroll back up and click "Deploy". Scroll down and click "Enable automatic deployment".
+1. Just beneath, click "Deploy branch". Heroku will now start building the app. When the build is complete, click "view app" to open it.
+1. In order to commit your changes to the branch, use git push to push your changes. 
+    
+
+[Back to Top](#table-of-contents)
+
+<a></a>
+
+## **Credits**
+
+* I want to thank Unsplash ](https://unsplash.com/photos/7T5vvPgvaYA)  
+
+* [The Art of Routing in Flask](https://hackersandslackers.com/flask-routes/) Documentation has also helped me understanding the concept of routing (register, sign-in, error handling etc) and how to best implement this into my project.
+
+* I would like to thank my mentor Simen [Eventyret_mentor](https://github.com/Eventyret) 
+
+* 
+
+[Back to Top](#table-of-contents)
+
+
+
