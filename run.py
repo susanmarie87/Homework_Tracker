@@ -25,7 +25,6 @@ def dashboard():
     return render_template("dashboard.html")
 
 
-
 @app.route("/support")
 def support():
     return render_template("support.html")
