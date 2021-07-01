@@ -62,9 +62,20 @@
 * As a user, I want to be able to edit profiles and assignments.
 * As a user, I want the option to delete profiles.
 * As a user, I want the ability to delete assignments. 
-### Design Choices ###
 
 ### Site Owner Goals ###
+
+* As a site owner, I want to have a site that is easy to navigate.
+* As a site owner, I want to encourage first-time visitors to sign up for the app.
+* As a site owner, I want to make it easier for parents to track their students success.
+* As a site owner, I want the parents to be able to add incentives.
+* As a site owner, I want to eventually grow the site and encourage businesses to add in rewards and incentives to students who excel. 
+* As a site owner, i want to have a site that works on all screen sizes.
+* As a site owner, I want my users to easily be able to contact tech support in the event of errors.
+* As a site owner, I want the site to be personal to each user as sensitive content may be uploaded.
+* As a site owner, I want the users to be able to add/edit/delete profiles and assignments as they please. 
+
+
 
 ### User Requirements and Expectations ###
 <a></a>
