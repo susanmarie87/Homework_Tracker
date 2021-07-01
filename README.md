@@ -78,15 +78,27 @@
 
 
 ### User Requirements and Expectations ###
+
+* The site must stand out. 
+* The mission of the homewrk tracker app must be easily received.
+* The content needs to be relevant to all audiences.
+* The visual elements should be visually appealing.
+* The profiles must be easily accesible.
+* The homework log should easily take in assignments
+* The parents should easily be able to access and track the student's progress.
+* The site should be able to give the parents an overall 
+* The contact form should work properly.
+
+
+
 <a></a>
-
-
-<a></a>
-
 #### Fonts
 
-<a></a>
+Big Shoulder Stencil display is the font chosen for the Title and headings. This font was chosen because it is bold, stands out, and the title looks amazing. I feel the characteristics of this font will really help bring the website to life. 
 
+Monda was chosen the paragraphs and information throughout the site. This style was chosen as it seems that the two fonts will compliment each other nicely. They wont be too different yet both are bold and stand out. i want the font to grasp the user's attention from the moment they hit the landing page and Monda paired with Big Shoulder Stencil Family is the perfect match.
+
+<a></a>
 #### Structure
 
 
