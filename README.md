@@ -412,7 +412,16 @@ To clone the project:
 
 * I would like to thank my mentor Simen [Eventyret_mentor](https://github.com/Eventyret) 
 
-* 
+* annie-spratt-aWoAmf8sMlA-unsplash
+
+* pedro-da-silva-unEmGQqdO7Q-unsplash
+
+* cookie-the-pom-gySMaocSdqs-unsplash
+
+* stem-t4l--PnSpCHYKsw-unsplash
+
+* tim-mossholder-WE_Kv_ZB1l0-unsplash
+
 
 [Back to Top](#table-of-contents)
 
